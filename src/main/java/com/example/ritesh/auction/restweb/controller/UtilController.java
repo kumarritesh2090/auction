@@ -1,6 +1,6 @@
-package com.example.ritesh.auction.controller;
+package com.example.ritesh.auction.restweb.controller;
 
-import com.example.ritesh.auction.controller.path.ApiPath;
+import com.example.ritesh.auction.restweb.path.ApiPath;
 import com.example.ritesh.auction.mongo.model.BidItem;
 import com.example.ritesh.auction.mongo.repository.BidItemRepository;
 import com.example.ritesh.auction.redis.model.Auction;
@@ -26,7 +26,6 @@ public class UtilController {
 
     @Autowired
     private AuctionRepository auctionRepository;
-
 
     @GetMapping(value = ApiPath.INIT)
     ResponseEntity initialize() {
