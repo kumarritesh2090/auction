@@ -8,4 +8,8 @@ public interface ApiPath {
 
     String BID_BY_ITEMCODE = "/{itemcode}/bid";
 
+    String BIDDING_ACTIVITY_BY_ITEMCODE = "/bidActivity/{itemCode}";
+
+
 }
+
